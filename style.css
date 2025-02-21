@@ -67,7 +67,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-    color: #000000;
+    color: #5b4d72;
     margin: 0 8px 12px 88px;
     
 
@@ -108,7 +108,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    /* work-ewperiece   */
 
 .work-experience-container {
-    margin-bottom: 44px;
+    /* margin-bottom: 44px; */
+    margin: 0 8px 12px 88px;
 } 
 
 .work-experience-posicion {
