@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
@@ -10,7 +10,7 @@ body {
 .wrapper-title {
 display: flex;
 flex-direction: row-reverse;
-background: #ffffff;
+background: #e1fdfb;
 width: 1000px;
 margin: 0 auto;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -31,7 +31,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     line-height: 17px;
     color: #5b4d72;
 
-    margin-left: 150px;
+    margin-left: 260px;
 
     /* margin: 150px 0 18px 88px; */
        
@@ -43,7 +43,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     line-height: 55px;
     color: #5b4d72;
     /* margin: 0px 0 28px 88px; */
-    margin-left: 150px;
+    margin-left: 200px;
   
 }
 
@@ -68,7 +68,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 22px;
     line-height: 27px;
     color: #5b4d72;
-    margin: 0 8px 12px 88px;
+    /* margin: 0 8px 12px 44px; */
     
 
 }
@@ -79,14 +79,15 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     line-height: 24px;
     color: #000000;
 }
+
 .project-list {
     padding: 0 0 0 14px;
-    margin: 0 0 0 88px
+    /* margin: 0 0 0 88px */
 }
 
 .projects-container {
-    margin-bottom: 48px;
-    margin-left: 68px;
+    /* margin-bottom: 48px;
+    margin-left: 68px; */
 }
     
 .project-item-description {
@@ -94,7 +95,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: #faf7f7;
 }
 
 .project-item-link {
@@ -109,7 +110,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 .work-experience-container {
     /* margin-bottom: 44px; */
-    margin: 0 8px 12px 88px;
+    /* margin: 0 8px 12px 44px; */
 } 
 
 .work-experience-posicion {
@@ -118,18 +119,18 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 16px;
     line-height: 20px;
     color: #000000;
-    margin: 0;
+    /* margin: 0; */
 }
 
 .work-experience-place {
-    margin-bottom: 16px;
-    margin-left: 88px;
+    /* margin-bottom: 16px;
+    margin-left: 88px; */
 
 }
 
 .work-experience-company {
     color: #6D9BF5;
-    margin: 12px 0 8px 0;
+    /* margin: 12px 0 8px 0; */
 
 }
 
@@ -139,7 +140,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 12px;
     line-height: 15px;
     color: #A8A8A8;
-    margin: 12px 0 8px 0;
+    /* margin: 12px 0 8px 0; */
 }
 .work-duties {
     font-style: normal;
@@ -150,7 +151,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .work-duties-list {
     padding: 0 0 0 16px;
-    margin: 0;
+    /* margin: 0; */
 }
 .education-container {
     margin-bottom: 88px;
@@ -160,7 +161,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 .education-description {
     width: 509px;
     height: 96px;
-    margin: 16px 0 0px 88px;
+    /* margin: 16px 0 0px 88px; */
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -174,7 +175,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 14px;
     line-height: 17px;
     color: #000000;
-    margin: 0 0 0 88px;
+    /* margin: 0 0 0 88px; */
     
 }
  
@@ -183,20 +184,20 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 /* Бокова панель з ефектом затемнення */
 .sidebar {
     width: 25%;
-    height: 1422px;
-    background-color: #d8d5dd;;
+    height: 1536px;
+    background-color: #eeffff;;
     color: white;
     box-shadow: 2px 0 5px rgba(0, 0, 1, 0.6);
-    border-top-left-radius: 200px;
-    border-top-right-radius: 200px;  
+    /* border-top-left-radius: 200px;
+    border-top-right-radius: 200px;   */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: absolute;
-    left: 320px;
-    top: 35px;
-    margin-top: 48px;
+    left: 300px;
+    top: 25px;
+    margin-top: 38px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: baseline;
 
   }
 
@@ -212,7 +213,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   .sidebar ul li a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
   }
   
   .sidebar ul li a:hover {
@@ -228,20 +229,18 @@ border-radius: 50%;
 
 .contact-container {
 margin-top: 48px;
-margin-left: 40px;
+/* margin-left: 40px; */
 }
 
-.ribbon-text {
-width: 100%;
-height: 40px;
-background: linear-gradient(to right, black, white);
-position: relative;
-  /* transform: skewY(-5deg);  */
-  margin-bottom: 20px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+.sidebar-title {
 }
+.ribbon-text {
+background: linear-gradient(to right, rgb(204, 227, 235), rgb(53, 39, 77));
+margin-bottom: 20px;
+width: 400px;
+
+}
+
 .strip-first {
     height: 40px;
     width: 110%;
@@ -281,7 +280,7 @@ margin-right: 8px;
 .contacts-number {
     font-style: normal;
 font-weight: 400;
-font-size: 14px;
+font-size: 16px;
 line-height: 24px;
 color: #161D2A;
 }
@@ -289,7 +288,7 @@ color: #161D2A;
 .contacts-email {
     font-style: normal;
 font-weight: 400;
-font-size: 14px;
+font-size: 16px;
 line-height: 24px;
 color: #2979FF;
 }
