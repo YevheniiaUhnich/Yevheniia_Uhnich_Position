@@ -197,20 +197,18 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-top: 38px;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-
   }
 
   .sidebar ul {
     list-style-type: none;
-    padding: 0;
+    /* padding: 0; */
   }
   
   .sidebar ul li {
-    margin: 10px 0;
+    /* margin: 10px 0; */
   }
   
-  .sidebar ul li a {
+  /* .sidebar ul li a {
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -218,10 +216,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   
   .sidebar ul li a:hover {
     color: #f1f1f1;
-  }
+  } */
 
 .my-photo {
 margin-top: 40px;
+margin-left: 40px;
 width: 300px;
 height: 320px;
 border-radius: 50%;
@@ -229,39 +228,47 @@ border-radius: 50%;
 
 .contact-container {
 margin-top: 48px;
-/* margin-left: 40px; */
 }
 
-.sidebar-title {
-}
-.ribbon-text {
-background: linear-gradient(to right, rgb(204, 227, 235), rgb(53, 39, 77));
-margin-bottom: 20px;
-display: inline-block;
-width: 360px;
-height: 30px;
-text-align: center;
-padding-top: 8px;
-}
-
-.strip-first {
+.ribbon-text-container {
+    background: linear-gradient(to right, rgb(204, 227, 235), rgb(53, 39, 77));
+    width: 395px;
     height: 40px;
-    width: 110%;
-    background-color:#A8A8A8;
-    margin-bottom: 120px;
-    position: relative;
-    margin-top: 40px;
+    display: inline-block;
+    align-items: flex-start;
+    text-align: center;
+    padding-bottom: 14px; 
+    margin-top: 40px;   
+}
 
+.contacts-number {
+    text-decoration: none;
+}
+
+.contacts-email {
+    text-decoration: none;
 }
 
 .tech-scills-container {
-margin-top: 48px;
-margin-left: 40px;
+    background: linear-gradient(to right, rgb(204, 227, 235), rgb(53, 39, 77));
+    width: 395px;
+    height: 40px;
+    display: inline-block;
+    align-items: flex-start;
+    text-align: center;
+    padding-bottom: 14px;    
+    margin-top: 80px;
 }
 
 .soft-scills-container {
-margin-top: 48px;
-margin-left: 40px;
+    background: linear-gradient(to right, rgb(204, 227, 235), rgb(53, 39, 77));
+    width: 395px;
+    height: 40px;
+    display: inline-block;
+    align-items: flex-start;
+    text-align: center;
+    padding-bottom: 14px;    
+    margin-top: 320px;
 }
   
 /* contacts  */
